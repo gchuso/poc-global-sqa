@@ -24,8 +24,8 @@
 					<includes>
 						<include>**/*Runner.java</include>
 					</includes>
-					<parallel>suites</parallel>
-					<threadCount>2</threadCount>
+					<!-- <parallel>suites</parallel>
+					<threadCount>2</threadCount> -->
 				</configuration>
 				<executions>
 					<execution>
