@@ -14,12 +14,19 @@ public class IndexPage extends PageObject {
 	@FindBy(linkText = "Simple Calculator")
 	private WebElementFacade simpleCalculatorLink;
 
+	@FindBy(linkText = "SearchFilter")
+	private WebElementFacade searchFilterLink;
+
 	public void clickRegistrationLoginLink() {
 		registrationLoginLink.click();
 	}
 
 	public void clickSimpleCalculatorLink() {
 		simpleCalculatorLink.click();
+	}
+
+	public void clickSearchFilterLink() {
+		searchFilterLink.click();
 	}
 
 }
